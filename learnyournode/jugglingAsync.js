@@ -17,15 +17,15 @@ function httpGet (index) {
          results[index] = data.toString();
          counter++
 
-
          if ( counter === 3 ) {
             for (i = 0; i < 3; i++) {
                console.log(results[i])
             };
          };
+
       }));
    });
-}
+};
 
 
 for (var index = 0; index < 3; index++) {
